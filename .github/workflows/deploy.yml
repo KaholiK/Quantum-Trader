@@ -19,7 +19,7 @@ jobs:
 
     - name: Deploy to Server
       run: |
-        ssh your_username@your_server_ip << 'EOF'
+        ssh root@50.175.235.10 << 'EOF'
           cd ~/QuantumTrader
           git pull origin main
           docker compose build --no-cache

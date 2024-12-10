@@ -1,0 +1,33 @@
+# .dockerignore
+
+# Exclude virtual environments
+env/
+venv/
+.venv/
+
+# Exclude log directories
+logs/
+*.log
+
+# Exclude data directories
+data/
+*.data
+
+# Exclude Git repository files
+.git
+.gitignore
+
+# Exclude Docker-related files (if not needed inside the container)
+Dockerfile
+docker-compose.yml
+
+# Exclude Python cache directories and files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude other unnecessary files
+node_modules/
+*.tmp
+*.swp

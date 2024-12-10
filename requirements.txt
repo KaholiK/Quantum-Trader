@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+requests
+pandas
+numpy
+scikit-learn
+tensorflow
+keras
+ta  # Technical Analysis library
+python-dotenv
+matplotlib
+seaborn
+loguru  # Logging
+sqlalchemy
+# Add other dependencies as needed

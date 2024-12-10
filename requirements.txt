@@ -7,10 +7,12 @@ numpy
 scikit-learn
 tensorflow
 keras
-ta  # Technical Analysis library
+ta
 python-dotenv
 matplotlib
 seaborn
-loguru  # Logging
+loguru
 sqlalchemy
-# Add other dependencies as needed
+backtrader
+streamlit
+cryptography
